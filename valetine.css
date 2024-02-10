@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Pangolin", sans-serif;
+  overflow:hidden;
+}
+
+.photo-gif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+#uwu2 {
+  display: none;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text h1 {
+  text-align: center;
+}
+
+.container-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.button {
+  margin-top: 2rem;
+  padding: 1rem;
+  display: flex;
+  width: 10rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#yes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Pangolin";
+  background-color: #04aa6d;
+}
+
+#no {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Pangolin";
+  background-color: #f44336;
+}
